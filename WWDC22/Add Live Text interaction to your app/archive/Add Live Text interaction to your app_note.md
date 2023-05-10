@@ -22,22 +22,23 @@
 
 1. ImageAnalyzer와 ImageAnalysisInteraction 추가
 
-![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled.png)
+![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/73d3460f-bbe6-4878-addf-222f15096d22)
 
-1. viewDidLoad에 오버라이딩, 이미지뷰에 interaction 추가
 
-![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled%201.png)
+2. viewDidLoad에 오버라이딩, 이미지뷰에 interaction 추가
 
-1. 분석이 언제 이루어지는지 알아야함, 새 이미지가 세팅될때 preferredInteractionTypes와 analysis를 초기화한다.
+![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/efb08965-aacb-4d4a-a1e2-3f52756ba82e)
 
-![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled%202.png)
+3. 분석이 언제 이루어지는지 알아야함, 새 이미지가 세팅될때 preferredInteractionTypes와 analysis를 초기화한다.
 
-1. 이미지가 있다면 작업을 수행, .automatic은 기본 설정 제공
+![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/5c2e8db7-b773-46e2-aa8b-43f87ec093e3)
 
-![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled%203.png)
+4. 이미지가 있다면 작업을 수행, .automatic은 기본 설정 제공
 
-1. 인터페이스 요소들이 자동으로 위치를 잡음, 커서 영역 등등..
-2. Live Text 버튼을 누르면 선택 가능한 모든 요소를 강조하고 Quick Action을 제공함 (전화번호로 전화 걸기 등)
+![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/6084d693-75ef-402b-9aec-b8a2c99efb1d)
+
+5. 인터페이스 요소들이 자동으로 위치를 잡음, 커서 영역 등등..
+6. Live Text 버튼을 누르면 선택 가능한 모든 요소를 강조하고 Quick Action을 제공함 (전화번호로 전화 걸기 등)
 
 ### Tips and Tricks
 
@@ -49,28 +50,30 @@
 - Quick Actions : 분석에서 나온 모든 데이터 감지기를 나타냄, Live Text 버튼이 작동하면 보임
 - 하단의 두 버튼의 사이즈와 외형은 상호 작용에 의해 제어됨, 기본 설정 위치와 외형은 시스템과 일치할지라도
     
-    ![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled%204.png)
+   ![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/8c877bb4-0699-4a2f-8de3-2aac9938fd08)
     
     - isSupplementaryInterfaceHidden : 텍스트 선택은 가능하게 하고 싶지만 live text button은 가리고 싶을때 true로 설정
     - supplementaryInterfaceContentInsets : 위치 조정 할 수 있음!
         
-        ![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled%205.png)
+        ![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/64d74b35-2bf5-4f8e-a430-b91932c5f87d)
         
     - supplementaryInterfaceFont = 폰트 지정 가능
         
-        ![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled%206.png)
+        ![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/fb615d23-0edc-494d-8a47-7d94feb3b4e0)
         
 - Live Text는 버튼 크기 지정 일관성을 위해 포인트 크기를 무시함
     - UIImageView를 사용하지 않으면 하이라이트가 이미지와 일치하지 않는다.
         
-        ![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled%207.png)
+        ![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/912013ce-797a-41c3-bff5-bf3b10519652)
         
         → 이미지뷰의 경우 VisionKit가 ContentMode 속성을 써서 contentsRect를 자동으로 계산해주기 때문임, contentsRect(for interaction: )을 사용하여 해결할 수 있다.
         
-        ![Untitled](1%20Add%20Live%20Text%20interaction%20to%20your%20app%20f93087e285704836817b374bb0cd28f8/Untitled%208.png)
+        ![image](https://github.com/Charming-Swift/WWDC-talkshow/assets/77677353/811c1fbb-2cf5-47fd-a56d-4d24256ae10c)
         
 - Interaction이 놓이는 가장 좋은 위치는?
     - 이미지 콘텐츠를 주관하는 뷰에.
+
+### 소감
 
 - 영상을 보기 전 나의 생각
     
