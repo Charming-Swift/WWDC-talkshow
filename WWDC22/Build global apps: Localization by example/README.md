@@ -44,7 +44,7 @@
 * `봄이💟`: WWDC 토크쇼를 하면서 느낀 점은, 영상에 대한 내용을 깊게 파고드는 것도 좋은데 영상이 다루고 있는 '주제'에 대해 집중적으로 이야기하다보니 더 재밌는 것 같아요. 흥미가 더 올라간달까? 하핫
 
 * `다혜🐥`: 이번주도 잘 마무리 되었습니다! 다음주의 주제는 WWDC22의 [What's new in Screen Time API](https://developer.apple.com/videos/play/wwdc2022/110336/)입니다. 영상 정리는 [WWDC note](https://www.wwdcnotes.com/notes/wwdc21/10123/)를 참고하시면 좋습니다. 다음주에 봐요! 안녕~
-* `봄이🍀`: 안녕~
+* `봄이💟`: 안녕~
 
 <hr>
 
