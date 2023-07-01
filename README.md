@@ -2,6 +2,12 @@
 Let's talk about WWDC.
 
 
+## WWDC23
+| 날짜 | 주제, 영상 보러가기 | 토크쇼 아카이브 | 참여자 |
+|:--:|----|:--:|:--:|
+|  23-06-20 | [What's new in Swift](https://developer.apple.com/videos/play/wwdc2020/10170) | [영상 정리본](https://www.wwdcnotes.com/notes/wwdc20/10170/) | (참석자 미달로 정리본으로 대체) |
+|  23-06-28 | [What's new in SwiftUI](https://developer.apple.com/videos/play/wwdc2023/10148) | [talkshow 다시보기](https://github.com/Charming-Swift/WWDC-talkshow/tree/main/WWDC23/What's%20new%20in%20SwiftUI) | [이다혜](https://github.com/dahae0320), [이봄이](https://github.com/leeyi1203) |
+
 
 ## WWDC22
 | 날짜 | 주제, 영상 보러가기 | 토크쇼 아카이브 | 참여자 |
@@ -11,4 +17,4 @@ Let's talk about WWDC.
 |  23-05-24 | [What's new in Screen Time API](https://developer.apple.com/videos/play/wwdc2022/110336/) | [talkshow 다시보기](https://github.com/Charming-Swift/WWDC-talkshow/tree/main/WWDC22/What's%20new%20in%20Screen%20Time%20API) | [이다혜](https://github.com/dahae0320), [이봄이](https://github.com/leeyi1203), [이도연](https://github.com/leedoyeon849) |
 |  23-05-31 | [Meet WeatherKit](https://developer.apple.com/videos/play/wwdc2022/10003/) | [talkshow 다시보기](https://github.com/Charming-Swift/WWDC-talkshow/tree/main/WWDC22/Meet%20WeatherKit) | [강민규](https://github.com/KoreaMango), [이다혜](https://github.com/dahae0320), [이봄이](https://github.com/leeyi1203) |
 |  23-06-07 | [Go further with Complications in WidgetKit](https://developer.apple.com/videos/play/wwdc2022/10051/) | [talkshow 다시보기](https://github.com/Charming-Swift/WWDC-talkshow/tree/main/WWDC22/Go%20further%20with%20Complications%20in%20WidgetKit) | [강민규](https://github.com/KoreaMango), [이다혜](https://github.com/dahae0320), [이봄이](https://github.com/leeyi1203), [백대홍](https://github.com/bdh3620) |
-|  23-06-20 | [What's new in Swift](https://developer.apple.com/videos/play/wwdc2020/10170) | [영상 정리본](https://www.wwdcnotes.com/notes/wwdc20/10170/) | (참석자 미달로 정리본으로 대체) |
+
