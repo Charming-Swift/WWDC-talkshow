@@ -7,7 +7,7 @@ Let's talk about WWDC.
 |:--:|----|:--:|:--:|
 |  23-06-20 | [What's new in Swift](https://developer.apple.com/videos/play/wwdc2020/10170) | [영상 정리본](https://www.wwdcnotes.com/notes/wwdc20/10170/) | (참석자 미달로 정리본으로 대체) |
 |  23-06-28 | [What's new in SwiftUI](https://developer.apple.com/videos/play/wwdc2023/10148) | [talkshow 다시보기](https://github.com/Charming-Swift/WWDC-talkshow/tree/main/WWDC23/What's%20new%20in%20SwiftUI) | [이다혜](https://github.com/dahae0320), [이봄이](https://github.com/leeyi1203) |
-| 23-08-01 | [Meet SwiftData](https://developer.apple.com/videos/play/wwdc2023/10187) | [talkshow 다시보기](https://github.com/Charming-Swift/WWDC-talkshow/blob/main/WWDC23/Meet%20SwiftData.md) | [이다혜](https://github.com/dahae0320), [강민규](https://github.com/KoreaMango) |
+| 23-07-31 | [Meet SwiftData](https://developer.apple.com/videos/play/wwdc2023/10187) | [talkshow 다시보기](https://github.com/Charming-Swift/WWDC-talkshow/blob/main/WWDC23/Meet%20SwiftData.md) | [이다혜](https://github.com/dahae0320), [강민규](https://github.com/KoreaMango) |
 
 
 ## WWDC22
